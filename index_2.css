@@ -1,0 +1,12 @@
+h1{
+    font-size: 30px;
+    color: #333;
+}
+p {
+    font-size: 28px;
+    color: #fa1313;
+}
+
+h1, p { 
+    text-align: center;
+}

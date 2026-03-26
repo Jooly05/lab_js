@@ -1,0 +1,42 @@
+h1{
+    font-size: 28px;
+    color: #333;
+}
+p {
+    font-size: 24px;
+    color: #fa1313;
+}
+li {
+    font-size: 24px;
+    color: #167106;
+    list-style-type: square;
+}
+input {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-style:  dashed;
+    border-color: #9deac6;
+    width: 250px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+.sidebar{
+    background-color: #ddd;
+    float: right;
+    width: 150px;
+}
+.main{
+    background-color: #eee;
+    height: 200px;
+    margin-right: 170px;
+}

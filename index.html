@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Пользователи</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Список пользователей</h1>
+            <button id="fetchDataButton">Обновить</button><input type="text" id="selectionСondition" placeholder="Введите текст"/>
+            <ul id="listUser"></ul>
+            <h1>Добавление пользователей</h1>
+        </div>
+        <form id="userForm">
+            <input type="text" id="name" placeholder="Введите имя" required>
+            <input type="text" id="second_name" placeholder="Введите фамилию" required>
+            <input type="text" id="patronymic" placeholder="Введите отчество" required>
+            <input type="text" id="email" placeholder="Введите email" required>
+            <input type="text" id="birthday" placeholder="дд.мм.гггг" required>
+            <input type="number" id="current_balance" step="0.1" required>
+            <button type="submit" id="add">Добавить пользователя</button>
+        </form>
+        <div id="message"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
