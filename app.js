@@ -14,7 +14,7 @@ const PORT = 3000
 const HOST = "localhost"
 
 app.get("/", (req, res)=> {
-    res.send("Hello World!")
+    res.send("Привет, мир!")
 })
 
 app.post('/api/add-user', (req, res) => {
