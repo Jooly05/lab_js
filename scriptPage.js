@@ -7,7 +7,7 @@ fetch('http://localhost:3000/page-user',{
 })
 .then(response => response.json())
 .then(data => {
-    document.getElementById("massage").innerText = "Авторизация прошла успешно. " + data.name + " " + data.second_name + " добро пожаловать!"
+    document.getElementById("massage").innerText = "Авторизация прошла успешно. " + data.name + " " + data.secname + " " + data.patronymic + " добро пожаловать!"
 })
 .catch(error => {
     document.getElementById('message').innerText = "Ошибка " + error.message
