@@ -5,7 +5,8 @@ registrationUser.addEventListener("click", (event) => {
     const second_name = document.getElementById('secname').value
     const patronymic = document.getElementById('patronymic').value
     const email = document.getElementById('email').value
-    const birthday = document.getElementById('bday').value
+    const birthdayRaw = document.getElementById('bday').value
+    const birthday = birthdayRaw.split('-').reverse().join('.')
     const current_balance = document.getElementById('current_balance').value
     const password = document.getElementById('password').value
     console.log("Запрос: ", { name, second_name, patronymic, email, birthday, current_balance })
