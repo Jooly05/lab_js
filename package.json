@@ -7,6 +7,6 @@
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "sqlite3": "^5.1.7",
-    "follow-redirects": "^1.15.6"
+    "follow-redirects": "^1.15.11"
   }
 }
