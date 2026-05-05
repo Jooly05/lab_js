@@ -1,4 +1,20 @@
 {
   "name": "Базовая среда разработки",
-  "image": "mcr.microsoft.com/devcontainers/base:debian"
+  "image": "mcr.microsoft.com/devcontainers/base:debian",
+  "features": {
+    "ghcr.io/stu-bell/devcontainer-features/node:0": {
+      "nodeGypDependencies": true,
+      "installYarnUsingApt": true,
+      "pnpmVersion": "7.30.0",
+      "nvmVersion": "latest"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.LiveServer"
+      ]
+    }
+  },
+  "postCreateCommand": ".devcontainer/postCreate.sh"
 }
